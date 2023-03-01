@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TKDN No. 1</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <hr>
+        <h1>Create New Customer</h1>
+        <hr>
+
+        <form action="http://localhost:3000/customer" method="POST">
+            <div class="form-group">
+                <label for="exampleInputPassword1">Name</label>
+                <input class="form-control"name="name">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputPassword1">Email</label>
+                <input class="form-control" name="email">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input class="form-control" name="password">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputPassword1">Gender</label>
+                <input type="date" class="form-control" name="gender">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputPassword1">Is Married</label>
+                <input class="form-control" name="is_married">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputPassword1">Address</label>
+                <input type="number" class="form-control" name="address">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
